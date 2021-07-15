@@ -1,0 +1,35 @@
+{"itensToDisplay": 
+    [
+        {"id": 1,
+        "nome": "Item 01",
+        "img": "./assets/img/package.png",
+        "price": "R$ 199,00"
+        },
+        {"id": 2,
+        "nome": "Item 02",
+        "img": "./assets/img/package.png",
+        "price": "R$ 399,00"
+        },
+        {"id": 3,
+        "nome": "Item 03",
+        "img": "./assets/img/package.png",
+        "price": "R$ 249,00"
+        },
+        {"id": 4,
+        "nome": "Item 04",
+        "img": "./assets/img/package.png",
+        "price": "R$ 159,00"
+        },
+        {"id": 5,
+        "nome": "Item 05",
+        "img": "./assets/img/package.png",
+        "price": "R$ 599,00"
+        },
+        {"id": 6,
+        "nome": "Item 06",
+        "img": "./assets/img/package.png",
+        "price": "R$ 999,00"
+        }
+    ]
+}
+

@@ -1,0 +1,101 @@
+p, h5{
+    text-align: center;
+    margin: auto;
+}
+.card-custon{
+    margin: 10px;
+    min-width: 300px;
+}
+
+.container-center{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin-bottom: 40px;
+}
+
+.white-font{
+    color: #fff;
+}
+
+.banner{
+    font-family: 'Monoton', cursive;
+    font-size: 80px;
+    text-align: center;
+    margin: auto;
+    color: #c6e2ff;
+    animation: neon .08s ease-in-out infinite alternate
+}
+
+@keyframes neon {
+    from {
+      text-shadow:
+      0 0 6px rgba(202,228,225,0.92),
+      0 0 30px rgba(202,228,225,0.34),
+      0 0 12px rgba(255,33,1,0.52),
+      0 0 21px rgba(255,33,1,0.92),
+      0 0 34px rgba(255,33,1,0.78),
+      0 0 54px rgba(255,33,1,0.92);
+    }
+    to {
+      text-shadow:
+      0 0 6px rgba(202,228,225,0.98),
+      0 0 30px rgba(202,228,225,0.42),
+      0 0 12px rgba(255,33,1,0.58),
+      0 0 22px rgba(255,33,1,0.84),
+      0 0 38px rgba(255,33,1,0.88),
+      0 0 60px rgba(255,33,1,1);
+    }
+  }
+
+  /*
+  Animação do texto do Banner: https://codepen.io/markheggan/pen/LjrVYN
+  */
+
+  .rodape{
+
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: space-between;
+      min-width: 100%;
+      height: 25px;
+      position: fixed;
+      bottom: 0;
+      
+  }
+
+  .fa {
+    padding: 2px;
+    margin:2px;
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    align-content: center;
+}
+.fa:hover {
+    color: white;
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
+.fa-linkedin {
+    background: #3B5998;
+}
+
+.fa-github {
+    background: black;
+}
+
+.price{
+    color: rgb(255,33,1);
+    font-size: larger;
+    font-weight: 700;
+    min-width: 80%;
+}

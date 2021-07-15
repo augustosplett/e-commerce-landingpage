@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6608396af3.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="bg-dark" onload="loadCards()">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-danger ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">COMPANY NAME</a>
+        </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container container-center" >
+      <span class="banner">BLACK FRIDAY</span>
+      <div class="container container-center white-font" style="margin-bottom: 15px;">
+        <p>
+          Cadastre seu e-mail agora e não perca nenhuma promoção!
+        </p>
+      </div>
+      <div class="input-group mb-3" style="max-width: 400px;">
+        <input type="email" id="email" class="form-control" placeholder="digite seu e-mail">
+        <button class="btn btn-danger" type="button" id="button-addon2" onclick="cadastrarEmail(document.querySelector('#email').value)">Cadastrar</button>
+      </div>
+    </div>
+
+    <div class="container container-center" id="card-container"></div>
+  </main>
+
+    <footer class="rodape bg-danger">
+      <div class="white-font" style="max-width: 80%;">
+        Desenvolvido por Augusto Madeira Splett
+      </div>
+      <div style="max-width: 50%;">
+        <a href="https://www.linkedin.com/in/augusto-msplett/" target="_blank" class="fa fa-linkedin"></a>
+        <a href="https://github.com/augustosplett" target="_blank" class="fa fa-github"></a>
+      </div>
+    </footer>
+
+    <script src="/assets/scripts/index.js"></script>
+</body>
+</html>
