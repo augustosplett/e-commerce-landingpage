@@ -42,3 +42,7 @@ const cadastrarEmail = (email) => {
         return
     }
 }
+
+const salvarEmail = (email) => {
+     localStorage.setItem("email",email) 
+}
