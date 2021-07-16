@@ -32,17 +32,15 @@ const addCard = (card) => {
 }
 
 //cadastramento email
-var emailList = [];
 
-const cadastrarEmail = (email) => {
-    if(emailList.indexOf(email) == -1){
-        emailList.push(email)
+const salvarEmail = (email) => {
+    if(localStorage.email != email){
+        localStorage.setItem("email",email) 
+        alert('email cadastrado com sucesso')
+        return
     }else{
         alert('email já cadastrado')
         return
     }
-}
 
-const salvarEmail = (email) => {
-     localStorage.setItem("email",email) 
 }
